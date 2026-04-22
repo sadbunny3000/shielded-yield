@@ -149,4 +149,4 @@ All intermediate values cast to `u128` before multiplication. Division back to `
 ---
 
 *Prepared for Adevar Labs Security Bounty — Solana Frontier Hackathon 2026*
-*Submitted by Natangwe Shikesho | Ongwediva, Namibia*
+*Submitted by Natangwe N Martin | Ongwediva, Namibia*
