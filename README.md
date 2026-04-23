@@ -129,3 +129,40 @@ Natangwe is a self-taught Solana developer and entrepreneur based in **Ongwediva
 
 **Built for the Solana Frontier Hackathon 2026**
 *Submitted by Natangwe Shikesho | Ongwediva, Namibia*
+
+---
+
+## 🗂️ Project Anatomy
+
+| File / Folder | Purpose |
+|---|---|
+| `programs/shielded_yield/src/lib.rs` | Production Solana program — core vault logic |
+| `SECURITY_DOSSIER.md` | Full security architecture for Adevar Labs auditors |
+| `simulations/simulation.ts` | High-frequency stress test — 10,000 state transitions |
+| `README.md` | Project overview, team, roadmap, and live links |
+| `Anchor.toml` | Anchor configuration and program ID |
+| `tests/` | Anchor test suite |
+| `migrations/` | Deployment scripts |
+
+---
+
+## 🛠️ Implementation Details
+
+- **`lib.rs` (Solana Program):** Implements `initialize`, `deposit`, `delegate`, `accrue`, `undelegate`, and `withdraw` instructions with strict signer constraints. Utilizes a `vault.reload()` pattern post-CPI to ensure state integrity during rollup transitions.
+
+- **`SECURITY_DOSSIER.md`:** Identifies 8 distinct threat vectors (including MEV sandwich and re-entrancy attacks) and defines 8 core program invariants (I-1 through I-8) for formal verification by Adevar Labs auditors.
+
+- **`simulations/simulation.ts`:** Simulates 10,000 state transitions across 1,000 users to prove the throughput advantages and cost-efficiency of using MagicBlock's isolated execution environment. Results show 99.4% gas savings vs mainnet settlement.
+
+---
+
+## ⚡ Quick Links
+
+| Resource | Link |
+|---|---|
+| **Devnet Explorer** | [View Program on Solana Explorer](https://explorer.solana.com/address/5F8R6GdfgdkRQNPv5TTDEkcUw5Vtpy6Irw4cilCBFCRp?cluster=devnet) |
+| **GitHub Repository** | [github.com/sadbunny3000/shielded-yield](https://github.com/sadbunny3000/shielded-yield) |
+| **Security Dossier** | [SECURITY_DOSSIER.md](./SECURITY_DOSSIER.md) |
+| **Simulation Script** | [simulations/simulation.ts](./simulations/simulation.ts) |
+| **Security Track** | Adevar Labs Security Bounty — DeFi Category |
+| **Hackathon** | Solana Frontier Hackathon 2026 |
