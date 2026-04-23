@@ -86,9 +86,9 @@ We have conducted high-frequency stress tests simulating 10,000+ state transitio
 
 ## 👥 Team
 
-### Natangwe Shikesho — Founder & Lead Developer
+### Natangwe Martin — Founder & Lead Developer
 
-Natangwe is a self-taught Solana developer and entrepreneur based in **Ongwediva, Oshana Region, Namibia**. He is the founder of Sunrise Poultry Farm, a biosecure broiler and egg production operation supplying schools, households, and restaurants in the Oshana region — demonstrating a track record of building and operating real-world ventures from the ground up.
+Natangwe is a student (studying cyber security at National Institute of Technology), Solana developer and entrepreneur based in **Ongwediva, Oshana Region, Namibia**. He is the founder of Sunrise Poultry Farm, a biosecure broiler and egg production operation supplying schools, households, and restaurants in the Oshana region — demonstrating a track record of building and operating real-world ventures from the ground up.
 
 **Solana Ecosystem Work:**
 * **Shielded Yield** — This project: a privacy-first yield aggregator using Anchor 0.32.1 and MagicBlock Ephemeral Rollups, successfully deployed to Solana Devnet.
@@ -128,7 +128,7 @@ Natangwe is a self-taught Solana developer and entrepreneur based in **Ongwediva
 ---
 
 **Built for the Solana Frontier Hackathon 2026**
-*Submitted by Natangwe Shikesho | Ongwediva, Namibia*
+*Submitted by Natangwe Martin | Ongwediva, Namibia*
 
 ---
 
