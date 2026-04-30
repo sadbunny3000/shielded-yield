@@ -1,0 +1,14 @@
+{
+  "name": "shielded-yield-demo",
+  "version": "1.0.0",
+  "description": "Shielded Yield CLI demo and attack simulation scripts",
+  "scripts": {
+    "demo":   "node shielded-yield-demo.js",
+    "attack": "node attack-simulation.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "chalk":           "4.1.2",
+    "ora":             "5.4.1"
+  }
+}
