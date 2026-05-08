@@ -79,7 +79,7 @@ We have conducted high-frequency stress tests simulating 10,000+ state transitio
 |---|---|
 | **Devnet Program** | [View on Solana Explorer](https://explorer.solana.com/address/5F8R6GdfgdkRQNPv5TTDEkcUw5Vtpy6Irw4cilCBFCRp?cluster=devnet) |
 | **GitHub Repo** | [github.com/sadbunny3000/shielded-yield](https://github.com/sadbunny3000/shielded-yield) |
-| **Demo Video** | Coming soon |
+| **Demo Video** | https://youtu.be/3zKl8ZC_TNo?si=Kl47F6lwI9ID0yfn |
 | **Colosseum Submission** | Solana Frontier Hackathon 2026 |
 
 ---
